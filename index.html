@@ -45,8 +45,17 @@
                 <h2>Meu primeiro post</h2>
                 <p>Por: Isadora da Silva</p>
                 <p>Olá, sejam muito bem vindos ao meu novo blog! Aqui vou compartilhar informações sobre a carreira do cantor Luan Santana e sua trajetória no mundo musical. </p>
-            <button>😍 0​</button>
+            <button>😍 <span>0</span>​</button>
             </div>
     </main>   
-        </body>
+ </body>
+ <script>
+    const botao= document. queryselector("button");
+    botao.addeventlistener("click", botaoClicado);
+
+    function botaoClicado(){
+    console.log ("fui clicado")
+     }
+
+ </script>
 </html>
